@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    top: 0;
+    overflow-x: hidden;
+    background-color: black;
+
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    /* top: 0; */
+    padding: 0;
+    margin: 0;
+}
+
+.header ul{
+    float: right;
+    margin-right: 105px;
+}
+
+
+
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin:5px 20px;
+}
+
+
+.header ul li a{
+    text-decoration: none;
+    /* color: #bbb; */
+    position: relative;
+    /* color: black; */
+    color: white;
+
+}
+
+.header ul li a::after{
+    content: '';
+    width: 0;
+    height: 1.8px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    /* color: black; */
+    background: rgb(58, 2, 198);
+    /* background: ; */
+    /* color: rgb(58, 2, 198); */
+    transition: 0.3s;
+
+}
+
+.header ul li a:hover::after{
+    width: 100%;
+
+}
+
+.header ul li a:hover{
+    color: rgb(58, 2, 198);
+
+}
+
+.logo{
+    margin-left: 45px;
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+/* #################################################################################################### */
+/* 
+
+.card{
+    height: 14rem;
+    width: 14rem;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: .5px solid rgb(227, 227, 227);
+    padding:  0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(244, 244, 244);
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+.card:hover::after{
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: skyblue;
+    z-index: -1;
+}
+
+
+.card:hover{
+    color: white;
+    transform: scale(1.1);
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: -1;
+    background-color: white;
+    transition: 0.5s ease;
+
+}
+
+.card:hover::before{
+    bottom: -10px;
+    right: -10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    z-index: 1;
+} */
